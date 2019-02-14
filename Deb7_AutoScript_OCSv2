@@ -124,9 +124,9 @@ service nginx restart
 
 apt-get -y install zip unzip
 cd /home/vps/public_html
-wget https://github.com/Dreyannz/Deb7AutoScriptOCS/raw/master/Deb7OCSv2.zip
-unzip Deb7OCSv2.zip
-rm -f Deb7OCSv2.zip
+wget https://github.com/stupifyz/Deb7AutoScriptOCS/blob/master/LTEOCS.zip
+unzip LTEOCS.zip
+rm -f LTEOCS.zip
 chown -R www-data:www-data /home/vps/public_html
 chmod -R g+rw /home/vps/public_html
 
